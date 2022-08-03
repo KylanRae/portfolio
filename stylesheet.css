@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
 }
-
+/* For mobile phones*/
 @media only screen and (max-width: 768px){
     .nav{
         background-color: #111;
@@ -24,7 +24,7 @@ body{
         transition: 0.3s;
     }
     
-    .navIcon{
+    .menu{
         width: 5em;
     }
 }
