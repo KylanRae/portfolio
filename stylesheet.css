@@ -1,4 +1,5 @@
 body {
+    background-color: #EEFFFE;
     margin: 0;
     padding: 0;
 }
@@ -6,26 +7,30 @@ body {
 /* For mobile phones*/
 @media only screen and (max-width: 768px) {
     .nav {
-        background-color: #111;
+        background-color: #3C4999;
         height: 100%;
         width: 0;
-        position: fixed;
-        z-index: 1;
         top: 0;
         left: 0;
+        position: fixed;
+        z-index: 1;
         overflow-x: hidden;
         transition: 0.5s;
     }
 
     .nav a {
-        color: #818181;
+        padding: 8px 8px 8px 32px;
         text-decoration: none;
         font-size: 1rem;
+        color: #EEFFFE;
         display: block;
+        overflow-x: hidden;
+        white-space: nowrap;
         transition: 0.3s;
-        font-family: basic-sans, sans-serif;
-        font-weight: 600;
-        font-style: normal;
+
+        /*font-family: basic-sans, sans-serif;*/
+        /*font-weight: 600;*/
+        /*font-style: normal;*/
     }
 
     .menu {
@@ -38,6 +43,7 @@ body {
 Website Resources:
 
 Colours:
+Blue Off-White: #EEFFFE
 Very Light Blue: #C8ECFE
 Medium Blue: #8D96CC
 Dark Blue: #3C4999

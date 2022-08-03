@@ -1,7 +1,7 @@
 //Opening navigation bar (mobile)
 function openNav() {
-    document.getElementById("myNav").style.width = "10em";
-    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    document.getElementById("myNav").style.width = "66%";
+    document.body.style.backgroundColor = "#C8ECFE";
 }
 
 //Close navigation bar (mobile)
