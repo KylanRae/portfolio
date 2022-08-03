@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 768px){
+    .nav{
+        background-color: #111;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+    
+    .nav a{
+        color: #818181;
+        text-decoration: none;
+        font-size: 1rem;
+        display: block;
+        transition: 0.3s;
+    }
+    
+    .navIcon{
+        width: 5em;
+    }
+}
