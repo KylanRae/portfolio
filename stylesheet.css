@@ -1,10 +1,11 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
+
 /* For mobile phones*/
-@media only screen and (max-width: 768px){
-    .nav{
+@media only screen and (max-width: 768px) {
+    .nav {
         background-color: #111;
         height: 100%;
         width: 0;
@@ -15,16 +16,105 @@ body{
         overflow-x: hidden;
         transition: 0.5s;
     }
-    
-    .nav a{
+
+    .nav a {
         color: #818181;
         text-decoration: none;
         font-size: 1rem;
         display: block;
         transition: 0.3s;
+        font-family: basic-sans, sans-serif;
+        font-weight: 600;
+        font-style: normal;
     }
-    
-    .menu{
+
+    .menu {
         width: 5em;
     }
 }
+
+
+/*
+Website Resources:
+
+Colours:
+Very Light Blue: #C8ECFE
+Medium Blue: #8D96CC
+Dark Blue: #3C4999
+Peach: #FFBA8A
+Dark Peach?: #CC9D8D
+
+Fonts:
+Basic sans:
+
+Black, Italics:
+font-family: basic-sans,sans-serif;
+font-weight: 900;
+font-style: italic;
+
+Black:
+font-family: basic-sans,sans-serif;
+font-weight: 900;
+font-style: normal;
+
+Bold, Italics:
+font-family: basic-sans,sans-serif;
+font-weight: 700;
+font-style: italic;
+
+Bold:
+font-family: basic-sans,sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Semibold, Italics:
+font-family: basic-sans,sans-serif;
+font-weight: 600;
+font-style: italic;
+
+Semibold:
+font-family: basic-sans,sans-serif;
+font-weight: 600;
+font-style: normal;
+
+Regular, Italics:
+font-family: basic-sans,sans-serif;
+font-weight: 400;
+font-style: italic;
+
+Regular:
+font-family: basic-sans,sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Light, Italics:
+font-family: basic-sans,sans-serif;
+font-weight: 300;
+font-style: italic;
+
+Light:
+font-family: basic-sans,sans-serif;
+font-weight: 300;
+font-style: normal;
+
+ExtraLight, Italics:
+font-family: basic-sans,sans-serif;
+font-weight: 200;
+font-style: italic;
+
+ExtraLight:
+font-family: basic-sans,sans-serif;
+font-weight: 200;
+font-style: normal;
+
+Thin, Italics:
+font-family: basic-sans,sans-serif;
+font-weight: 100;
+font-style: italic;
+
+Thin
+font-family: basic-sans,sans-serif;
+font-weight: 100;
+font-style: normal;
+
+*/
