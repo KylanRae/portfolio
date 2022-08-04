@@ -70,6 +70,7 @@ body {
         border: solid;
         border-radius: .5em;
         border-color: #3C4999;
+        border-width: .15em;
         width: 1em;
         display: block;
         position: absolute;
