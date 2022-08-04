@@ -19,7 +19,7 @@ body {
     }
 
     .nav a {
-        padding: 8px 8px 8px 32px;
+        padding-left: 1.5em;
         text-decoration: none;
         font-size: 1rem;
         color: #EEFFFE;
@@ -27,14 +27,30 @@ body {
         overflow-x: hidden;
         white-space: nowrap;
         transition: 0.3s;
+        font-family: basic-sans, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
 
-        /*font-family: basic-sans, sans-serif;*/
-        /*font-weight: 600;*/
-        /*font-style: normal;*/
+    .navbar{
+        padding-top: 3em;
+    }
+
+    .close{
+        width: 1.5em;
+        position: absolute;
+        right: .25em;
     }
 
     .menu {
-        width: 5em;
+        margin-top: 1em;
+        margin-left: auto;
+        margin-right: 1em;
+        padding: .5em 1em .5em 1em;
+        border: solid;
+        border-radius: .5em;
+        width: 1em;
+        display: block;
     }
 }
 
