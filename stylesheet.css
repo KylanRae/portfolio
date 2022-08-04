@@ -4,6 +4,10 @@ body {
     padding: 0;
 }
 
+.overlay {
+    filter: alpha(opacity=80);
+}
+
 /* For mobile phones*/
 @media only screen and (max-width: 768px) {
     .nav {
@@ -32,20 +36,34 @@ body {
         font-style: normal;
     }
 
-    .navbar{
+    .navbar {
         padding-top: 3em;
     }
 
-    .close{
+    .close {
         width: 1.5em;
         position: absolute;
         right: .25em;
     }
 
+    .header {
+        background-color: #C8ECFE;
+        width: 100%;
+        display: flex;
+    }
+
+    .header h1 {
+        color: #3C4999;
+        margin-left: .8em;
+        font-size: 1.7em;
+        font-family: basic-sans, sans-serif;
+        font-weight: 900;
+        font-style: normal;
+    }
+
     .menu {
-        margin-top: 1em;
-        margin-left: auto;
-        margin-right: 1em;
+        margin-top: .9em;
+        margin-left: 5.5em;
         padding: .5em 1em .5em 1em;
         border: solid;
         border-radius: .5em;
@@ -62,7 +80,7 @@ Colours:
 Blue Off-White: #EEFFFE
 Very Light Blue: #C8ECFE
 Medium Blue: #8D96CC
-Dark Blue: #3C4999
+Dark Blue: 
 Peach: #FFBA8A
 Dark Peach?: #CC9D8D
 
