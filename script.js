@@ -1,6 +1,6 @@
 //Opening navigation bar (mobile)
 function openNav() {
-    document.getElementById("myNav").style.width = "66%";
+    myNav.style.setProperty('width', 'calc(100% - 30%)');
 }
 
 //Close navigation bar (mobile)

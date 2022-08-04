@@ -18,10 +18,10 @@ body {
         transition: 0.5s;
     }
 
-    .nav a {
-        padding-left: 1.5em;
+    .link {
+        padding:  .75em 2em .75em 2em;
         text-decoration: none;
-        font-size: 1rem;
+        font-size: .9rem;
         color: #EEFFFE;
         display: block;
         overflow-x: hidden;
@@ -37,9 +37,10 @@ body {
     }
 
     .close {
-        width: 1.5em;
+        width: 1.25em;
         position: absolute;
-        right: .25em;
+        right: .5em;
+        top: .5em;
     }
 
     .header {
@@ -50,21 +51,26 @@ body {
 
     .header h1 {
         color: #3C4999;
-        margin-left: .8em;
-        font-size: 1.7em;
+        margin-left: .6em;
+        font-size: 1.5em;
         font-family: basic-sans, sans-serif;
         font-weight: 900;
         font-style: normal;
     }
 
     .menu {
-        margin-top: .9em;
-        margin-left: 5.5em;
-        padding: .5em 1em .5em 1em;
+        margin-top: .8em;
+        margin-left: auto;
+        margin-right: 1em;
+        right: 0;
+        top: 0;
+        padding: .4em .9em .4em .9em;
         border: solid;
         border-radius: .5em;
+        border-color: #3C4999;
         width: 1em;
         display: block;
+        position: absolute;
     }
 }
 
