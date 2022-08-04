@@ -16,10 +16,11 @@ body {
         z-index: 1;
         overflow-x: hidden;
         transition: 0.5s;
+        filter: drop-shadow(.1em 0 1em #252B54);
     }
 
     .link {
-        padding:  .75em 2em .75em 2em;
+        padding: .75em 2em .75em 2em;
         text-decoration: none;
         font-size: .9rem;
         color: #EEFFFE;
@@ -47,6 +48,7 @@ body {
         background-color: #C8ECFE;
         width: 100%;
         display: flex;
+        filter: drop-shadow(0 0 .3em #252B54);
     }
 
     .header h1 {
@@ -72,6 +74,54 @@ body {
         display: block;
         position: absolute;
     }
+
+    .content {
+        margin: 2em;
+    }
+
+    .content h1 {
+        margin-bottom: 0;
+        font-family: basic-sans, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 2rem;
+        text-transform: uppercase;
+        line-height: .8em;
+        color: #252B54;
+    }
+
+    .content h2{
+        padding-top: 1em;
+        font-family: basic-sans, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        line-height: .8em;
+        color: #252B54;
+    }
+
+    .content p {
+        font-family: basic-sans, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1rem;
+        line-height: 1.3em;
+        color: #252B54;
+    }
+
+    .section{
+        display: grid;
+        column-gap: .25em;
+        row-gap: 1.1em;
+        grid-template-columns: auto auto;
+    }
+
+    .image{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 
@@ -82,7 +132,8 @@ Colours:
 Blue Off-White: #EEFFFE
 Very Light Blue: #C8ECFE
 Medium Blue: #8D96CC
-Dark Blue: 
+Dark Blue: #3C4999
+Super Dark Blue: #252B54
 Peach: #FFBA8A
 Dark Peach?: #CC9D8D
 
